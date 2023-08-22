@@ -17,7 +17,7 @@
   - byte, short,int(defaul),long
   - string **객체 
     
-*
+* operator
   - 대입(할당) 연산자: =
   - 복합 대입 연산자 : +=, -=, *=, /=, %=
   - 3항연산자 : (조건식? true : false)
