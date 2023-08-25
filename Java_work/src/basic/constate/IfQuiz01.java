@@ -18,6 +18,7 @@ public class IfQuiz01 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("정수를 2개 입력하세요.");
 		System.out.println("==================");
+		
 		System.out.print("첫번째 정수 입력: ");
 		int num1 = sc.nextInt();
 		System.out.print("두번째 정수 입력: ");
@@ -27,10 +28,9 @@ public class IfQuiz01 {
 			System.out.printf("입력받은 수: %d이(가) 큰 수 입니다.",num1);
 		}else if (num1<num2) {
 			System.out.printf("입력받은 수: %d이(가) 큰 수 입니다.",num2);
-		}else if(num1 == num2) {
+		}else{
 			System.out.printf("%d와 %d는 같은 수 입니다",num1,num2);
-		}else 
-		
+		}		
 		sc.close();
 		
 	}
