@@ -30,6 +30,7 @@ public class ArrayModify {
 				flag= true;
 				break;
 			}
+			
 		}
 //			else if (i==foods.length-1) {
 //				System.out.println("없는 음식입니다.");
