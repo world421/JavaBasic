@@ -54,7 +54,7 @@ public class IfQuiz03 {
         System.out.println("중간값: " + mid);
         System.out.println("최소값: " + min);
         
-        
+        sc.close();
         
         
         
