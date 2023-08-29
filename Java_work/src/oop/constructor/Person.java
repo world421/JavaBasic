@@ -4,36 +4,23 @@ public class Person {
 
 	String name;
 	int age;
-	int feet;
+	int height;
 	
-	Person(){
-		System.out.println("기본 호출!");
-		name = "최고심";
-		age = 18;
-		feet = 150;
-	}
+	Person(){} //기본생성자는 하나 만들어놓고 비워놓아야 나중에 원하는거받을수이ㅣㅆ음!!
 	
-	Person(String pName, int pAge){
+		
+	Person(String pName, int pAge,int pHeight){
 
-		System.out.println("기본 2호출!");
 		name = pName;
 		age = pAge;
-		feet = 200;
+		height = pHeight;
 	}
 	
-	Person(String pName, int pAge, int pFeet){
-
-		System.out.println("기본 3호출!");
-		name = pName;
-		age = pAge;
-		feet = pFeet;
-	}
-	
-	
+		
 	void info() {
 		System.out.println("***"+ name +" 정보 ***");
 		System.out.println("이름 : " + name);
-		System.out.println("나이 : " + age);
-		System.out.println("키  : " + feet);
+		System.out.println("나이 : " + age + "세");
+		System.out.println("키  : " + height +"cm");
 	}
 }
