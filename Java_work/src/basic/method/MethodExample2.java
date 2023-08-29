@@ -26,7 +26,7 @@ public class MethodExample2 {
 	static int calcRangeTotal(int start, int end){ // 시작과끝값
 		int total = 0;
 		for(int i = start;i<=end;i++) {
-			total+=i;
+			total+=i; // total = total +i
 		}
 		return total;
 	}

@@ -23,7 +23,7 @@ package basic.method;
 	 
 	8. 모든 메서드는 return을 만나면 강제로 메서드가 종료됩니다.
 	 따라서 조건 없이 return문 아래에 코드를 작성할 수 없습니다.
-	 void메서드에서는 return 키워드를 탈출 기능으로 사용할 수 있습니다.
+	 ★void메서드에서는 return 키워드를 탈출 기능으로 사용할 수 있습니다.
 	*/
 
 public class MethodExample3 {
@@ -38,11 +38,11 @@ public class MethodExample3 {
 	}
 
 	static double[] calcArrayTotal(int[] nums) {
-		int total = 0;
-		for(int n : nums) {
-			total += n;
+		int total = 0; 
+		for(int n : nums) { //  배열 받을 변수  : 배열변수명
+			total += n; // n의 누적합계 
 		}
-		double avg = total / (double)nums.length;
+		double avg = total / (double)nums.length; //평균 합계
 		return new double[] {total, avg};
 	}
 
@@ -86,8 +86,7 @@ public class MethodExample3 {
 		 */
 		int[] numbers = {57, 89, 78, 91, 93, 47};
 		double[] result = calcArrayTotal(numbers);
-		System.out.printf("합계: %d, 평균: %.2f\n"
-				, (int)result[0], result[1]);
+		System.out.printf("합계: %d, 평균: %.2f\n", (int)result[0], result[1]);
 
 		System.out.println("------------------------------------------------");
 
