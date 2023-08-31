@@ -6,7 +6,7 @@ class MainClass {
 		
 		MyBirth my = new MyBirth();
 //		my.year = 1992;
-		my.setYear(2000);
+		my.setYear(0);
 		my.setMonth(4);
 		my.setDay(21);
 		

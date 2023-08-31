@@ -9,5 +9,6 @@ public class Hunter extends Player{ // 상속받음 !
 		super.characterInfo();
 		System.out.println("# 펫 이름 :" + pet);
 	}
+	
 
 }
