@@ -14,21 +14,25 @@ public class Calculator {
 	
 	//3번 
 	void inputData(){} 
+	
 	void inputData(int a){}
+	
 	void inputData(int a,int b){}
+	
 //	void inputData(int b,int a){} (x)
+	
 	void inputData(String s) {} // 매개변수의 데이터 타입이 다름 
 	
 	void inputData(int a, double d ) {} // 1번 만족 !
+	
 	void inputData(double d, int a ) {} 
+	
 //	void inputData(int number ){} (x) 정수 매개값 1개를 받는 메서드가 이미 선언됨.
 	
 //	int inputData(int number) {
 //		return 0;
 	//}// // (x) 반환 유형(return type)은 오버로딩에 영향을 미치지 못합니다. 
-		// 
-	
-	
+
 	
 	// 호출할때 구분이 되면 중복선언 가능
 

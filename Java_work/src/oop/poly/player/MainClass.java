@@ -16,7 +16,11 @@ public class MainClass {
 		m1.blizzard(targets);
 		
 		
-		
+		System.out.println("===================");
+		w1.rush(m1);
+		w1.rush(m2);
+		w1.rush(h1);
+				
 		
 		
 		/*

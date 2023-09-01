@@ -12,6 +12,9 @@ public class Car {
 	
 	void run() {
 		System.out.println("자동차가 달립니다.~!"); // 부모로 쓸고
+	
 	}
+	//run이라는 메서드 가지고있음
+	
 	
 }

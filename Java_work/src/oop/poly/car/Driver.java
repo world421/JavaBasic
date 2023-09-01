@@ -7,6 +7,8 @@ public class Driver {
 		c.run();
 	}
 	
+	
+	
 	public Car buyCar(String name) {
 		if(name.equals("소나타")) {
 		System.out.println("소나타를 구입합니다");
