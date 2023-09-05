@@ -14,6 +14,8 @@ public class ArraysExample {
 		char[] arr3 = Arrays.copyOfRange(arr, 1, 3);
 		
 		
+		
+		
 //		arr[2] = 'F';
 		System.out.println(Arrays.toString(arr));
 		System.out.println(Arrays.toString(arr2));
