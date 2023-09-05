@@ -31,6 +31,8 @@ public class ThrowsExample {
             //메세지를 통해 개발자에게 전달하므로 자주 사용하는 메서드입니다.
             e.printStackTrace();
             
+           
+            //예외를 역추적하는  
             //예외발생한 곳 추적 ! e.
         }
         
