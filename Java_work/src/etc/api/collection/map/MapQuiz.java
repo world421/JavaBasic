@@ -49,9 +49,9 @@ public class MapQuiz {
 			}
 		
 			System.out.println("\n*** 오늘 등록한 단어 ***");
-			Set<String> engs = engKor.keySet();
-			for(String s :engs) {
-				System.out.println(s + " : " + engKor.get(s));
+			Set<String> keys = engKor.keySet();
+			for(String k :keys) {
+				System.out.println(k + ": " + engKor.get(k));
 			}
 			
 			sc.close();
