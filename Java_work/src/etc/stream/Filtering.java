@@ -20,9 +20,11 @@ public class Filtering {
 
         // 먼저 스트림 객체 받기.filter. .collect(Collectors.toList());
         menuList.stream()
-                .filter(dish -> dish.isVegetarian())
+               // .filter(dish -> dish.isVegetarian())
+                .filter(Dish::isVegetarian)
                 .collect(toList())
-                .forEach(dish -> System.out.println("dish = " + dish));
+                .forEach(System.out::println);
+                //.forEach(dish -> System.out.println(dish));
 
         // 리스트 내부에 들어올때마다 출력
         //dishInVegiterian.forEach(dish -> System.out.println("dish = " + dish));
